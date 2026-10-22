@@ -1,0 +1,13 @@
+{
+  "name": "api-clientes-pedidos",
+  "version": "1.0.0",
+  "description": "API REST de gerenciamento de clientes e pedidos",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
